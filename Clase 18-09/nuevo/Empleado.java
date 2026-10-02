@@ -11,11 +11,7 @@ public class Empleado {
         return 0;
     }
 
-    @Override
-    public String toString() {
-        return "Nombre: " + nombre + " Legajo: " + legajo + " - Sueldo: $" + calcularSueldo();
-    }
-
+    
 
 }
 
