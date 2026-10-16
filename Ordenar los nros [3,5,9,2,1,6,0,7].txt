@@ -1,0 +1,32 @@
+Ordenar los nros [3,5,9,2,1,6,0,7] de menor a mayor.
+
+
+
+Ambiente
+nro [8]: entero
+aux: entero
+
+Proceso
+	para j:=7 hasta 0 hacer
+		Para i:=0 hasta j hacer
+			Si nro[i] > nro[j] entonces //
+				nro[j]:= nro[i]
+				
+			fs
+			
+			si 
+
+			
+			
+
+		j--
+
+
+
+
+
+----------------------------
+testing
+n i aux
+1 0 3
+	
