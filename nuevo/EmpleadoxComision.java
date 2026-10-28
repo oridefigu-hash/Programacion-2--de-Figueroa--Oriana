@@ -12,4 +12,4 @@
         public double calcularSueldo() {
             return ((ventas * porcentajeComision)/100);
         }
-    }
+    }  
