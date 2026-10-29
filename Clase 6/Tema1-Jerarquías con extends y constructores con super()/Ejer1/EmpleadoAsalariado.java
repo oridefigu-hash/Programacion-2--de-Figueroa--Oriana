@@ -10,11 +10,6 @@ public EmpleadoAsalariado(String nombre, int legajo, double sueldoBase, double b
 
 }
 
-@Override 
-public double calcularSueldo(){
-    return sueldoBase+bono;
-}
-
 
 
 }

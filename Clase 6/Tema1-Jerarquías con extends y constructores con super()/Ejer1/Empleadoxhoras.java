@@ -8,13 +8,8 @@ private double valorHora;
         this.valorHora= valorHora;
     }
 
-    @Override //se sobreescribe el método abstracto calcularSueldo
+   
 
-    public double calcularSueldo(){
-        return valorHora*horasTrabajo;
-        
-    }
-
-    
+            
 }
 
