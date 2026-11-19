@@ -1,0 +1,34 @@
+Principales:
+
+Comprobras estado git:
+git status
+
+
+1. Agregar
+
+git add .
+
+
+Si querés agregar solamente un archivo específico:
+git add Main.java
+
+
+O una carpeta completa:
+git add Ejercicios/
+ 
+
+
+2. Guardar
+
+git commit -m "Mi cambio"
+
+
+
+3. Subir
+
+git push origin main
+
+
+
+
+Consultar tu rama actual con:  git branch --show-current.
