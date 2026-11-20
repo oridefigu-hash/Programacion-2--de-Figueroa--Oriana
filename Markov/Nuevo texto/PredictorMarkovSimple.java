@@ -10,7 +10,7 @@ public class PredictorMarkovSimple {
 
         // Leer el archivo y guardar todas las palabras en una lista, en el orden en que aparecen
         List<String> palabras = new ArrayList<>();
-        BufferedReader lector = new BufferedReader(new FileReader("El perro.txt"));
+        BufferedReader lector = new BufferedReader(new FileReader("La pregunta de sus ojos.txt"));
         String linea;
         while ((linea = lector.readLine()) != null) {
             linea = linea.toLowerCase().replaceAll("[.,;:!?\"()]", "");
@@ -54,3 +54,4 @@ public class PredictorMarkovSimple {
         System.out.println("Texto generado: " + textoGenerado);
     }
 }
+
