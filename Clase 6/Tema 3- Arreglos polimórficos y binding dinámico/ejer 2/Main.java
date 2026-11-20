@@ -13,11 +13,19 @@ public class Main{
             System.out.printf(f.getNombre()+" "+ "área: %.2f%n ", f.calcularArea());
         }
 
+        System.out.println();
+        System.out.printf("Area total: %.2f%n", Calculadora.TotalArea(figuras));
 
-
+        
+        try {
+           new triangulo("triangulo", -4, 5, 0);
+        } catch (IllegalArgumentException e) {
+           System.out.println("Error: "+ e.getMessage());
+        }
     }
 
-
+    
+   
 
 
 
