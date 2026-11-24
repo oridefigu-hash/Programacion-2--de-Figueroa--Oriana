@@ -12,7 +12,7 @@
         };
 
         //utilizamos un for-each para contar el sueldo total de cada empleado de cada tipo
-        
+        System.out.println();
         for (Empleado e: empleados){
 
             System.out.println(e.getnombre()+" "+ e.getlegajo()+" "+"Sueldo bruto: $"+ e.calcularSueldo());
