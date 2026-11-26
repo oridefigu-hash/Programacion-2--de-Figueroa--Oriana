@@ -1,0 +1,6 @@
+# Ejercicio 1 (básico-intermedio)
+Convertir Figura (Clase 6) en abstract class con un 
+método abstracto calcularArea(), eliminando cualquier implementación por defecto que 
+retornara 0. Verificar que el compilador rechaza instanciar Figura directamente, y que 
+cada subclase concreta (Circulo, Rectangulo, Triangulo) está obligada a implementar 
+calcularArea().
